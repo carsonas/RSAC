@@ -1,6 +1,3 @@
-#This script was produced by Carson Stam, a contract employee working at the Remote Sensing Applications Center in Salt Lake City.
-
-
 import webbrowser
 import os
 

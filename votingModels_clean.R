@@ -1,6 +1,3 @@
-#Code Written By Carson Stam
-#castam@fs.fed.us
-#801-975-3466
 #Code to make any classifier into a "voting" classifer.  Similar to how random forests makes CART a voting classifer
 install.packages("caret")
 install.packages("e1017")
