@@ -169,7 +169,7 @@ R2vifs = R2vifs[-1,]
 outTable = cbind(varOptions,R2vifs)
 colnames(outTable) = c("var1","var2","var3","var4","AdjR2","VIF")
 outTable = as.data.frame(outTable)
-outTable = outTable[outTable$VIF<5,]
+outTable = outTable[outTable$VIF<VIFthresh,]
 write.csv(outTable,paste0(responVarName,"_bestmodel_4Var.csv"),row.names=F)
 
 ######################################################################################
